@@ -31,6 +31,7 @@ namespace AdoptionAgency
             // debug stuff just prints the Objects in full
             Clint.PersonData();
             Aidan.PersonData();
+            Liz.PersonData();
 
             Rex.AnimalData();
             Felix.AnimalData();
