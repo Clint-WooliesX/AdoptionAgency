@@ -10,6 +10,7 @@ namespace AdoptionAgency
             // takes one value "Name"
             Person Clint = new Person("Clint");
             Person Aidan = new Person("Aidan");
+            Person Liz = new Person("Liz");
 
             // Create pets to adopt //
             //Takes 3 values "Species", "Name" and "Desexed" (true/false) //
@@ -25,7 +26,7 @@ namespace AdoptionAgency
             // Takes Bool to display Object variables in color //
             Clint.Gretting(true);
             Aidan.Gretting();
-
+            Liz.Gretting();
 
             // debug stuff just prints the Objects in full
             Clint.PersonData();
