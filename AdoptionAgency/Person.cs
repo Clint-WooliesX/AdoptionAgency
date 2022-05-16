@@ -24,9 +24,10 @@ namespace AdoptionAgency
             if (!color)
             {
                 Console.WriteLine("Hi my name is {0} and I addopted a {1} named {2}", Name, Pet.Species, Pet.Name);
-                Program.Space();
+                Console.WriteLine();
             }
             else
+            // if TRUE prints the above line with the Variables colored Yellow
             {
                 Console.Write("Hi my name is ");
                 Console.ForegroundColor = ConsoleColor.Yellow;
@@ -40,7 +41,7 @@ namespace AdoptionAgency
                 Console.ForegroundColor = ConsoleColor.Yellow;
                 Console.WriteLine("{0} ", Pet.Name);
                 Console.ResetColor();
-                Program.Space();
+                Console.WriteLine();
             }
         }
     }

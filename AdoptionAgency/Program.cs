@@ -30,11 +30,6 @@ namespace AdoptionAgency
             Felix.AnimalData();
 
         }
-
-        static public void Space()
-        {
-            Console.WriteLine();
-        }
     }
 }
 

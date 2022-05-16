@@ -21,12 +21,11 @@ namespace AdoptionAgency
             Console.WriteLine("Species: {0}", Species);
             Console.WriteLine("Name: {0}", Name);
             Console.WriteLine("Desexed: {0}", Desexed);
-            Program.Space();
+            Console.WriteLine();
         }
 
         public void AdoptedBy(Person name)
-        {
-
+        { 
             name.Pet = this;
         }
 
