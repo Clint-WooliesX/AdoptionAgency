@@ -16,6 +16,7 @@ namespace AdoptionAgency
         {
             Console.WriteLine("Name: {0}", Name);
             Console.WriteLine("Pet: {0}", Pet);
+            Console.WriteLine();
 
         }
 
