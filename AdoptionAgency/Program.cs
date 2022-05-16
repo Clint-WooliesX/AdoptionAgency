@@ -26,6 +26,8 @@ namespace AdoptionAgency
             Clint.Gretting(true);
             Aidan.Gretting();
 
+
+            // debug stuff just prints the Objects in full
             Clint.PersonData();
             Aidan.PersonData();
 
