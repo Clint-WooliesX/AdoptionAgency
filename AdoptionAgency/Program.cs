@@ -27,6 +27,8 @@ namespace AdoptionAgency
             Aidan.Gretting();
 
             Clint.PersonData();
+            Aidan.PersonData();
+
             Rex.AnimalData();
             Felix.AnimalData();
 
