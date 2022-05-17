@@ -19,22 +19,32 @@ namespace AdoptionAgency
 
 
             // Animal Method to be adopted by a person//
-            Rex.AdoptedBy(Aidan);
-            Felix.AdoptedBy(Clint);
+            AdoptionAgency.Adopt(Clint, Felix);
+            AdoptionAgency.Adopt(Aidan, Rex);
 
             // Person Method to display greeting //
             // Takes Bool to display Object variables in color //
             Clint.Gretting(true);
-            Aidan.Gretting();
+            Aidan.Gretting(true);
             Liz.Gretting();
 
-            // debug stuff just prints the Objects in full
-            Clint.PersonData();
-            Aidan.PersonData();
-            Liz.PersonData();
+            AdoptionAgency.Adopt(Clint, Rex);
+            AdoptionAgency.Unadopt(Felix);
 
-            Rex.AnimalData();
-            Felix.AnimalData();
+            Clint.Gretting(true);
+
+            //// debug stuff just prints the Objects in full
+            //Clint.PersonData();
+            //Aidan.PersonData();
+            //Liz.PersonData();
+
+            //Rex.AnimalData();
+            //Felix.AnimalData();
+
+            //Felix.Name = "Grace";
+
+            //Clint.Gretting(true);
+
 
         }
     }

@@ -6,6 +6,7 @@ namespace AdoptionAgency
     {
         public string Name;
         public string Species;
+        public Person Owner;
         public bool Desexed;
 
 
